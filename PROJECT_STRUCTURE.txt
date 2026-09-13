@@ -1,0 +1,42 @@
+sqrock-social-media-backend/
+├── pom.xml
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/sqrock/socialmediabackend/
+│       │       ├── SqrockSocialMediaBackendApplication.java
+│       │       ├── config/
+│       │       │   └── SecurityConfig.java
+│       │       ├── controller/
+│       │       │   ├── AuthController.java
+│       │       │   ├── UserController.java
+│       │       │   ├── PostController.java
+│       │       │   └── AdminController.java
+│       │       ├── dto/
+│       │       │   └── ApiDtos.java
+│       │       ├── exception/
+│       │       │   ├── ApiException.java
+│       │       │   └── GlobalExceptionHandler.java
+│       │       ├── model/
+│       │       │   ├── User.java
+│       │       │   ├── Role.java
+│       │       │   ├── Post.java
+│       │       │   ├── Comment.java
+│       │       │   ├── PostLike.java
+│       │       │   └── Follow.java
+│       │       ├── repository/
+│       │       │   ├── UserRepository.java
+│       │       │   ├── PostRepository.java
+│       │       │   ├── CommentRepository.java
+│       │       │   ├── PostLikeRepository.java
+│       │       │   └── FollowRepository.java
+│       │       ├── security/
+│       │       │   ├── JwtService.java
+│       │       │   ├── JwtAuthenticationFilter.java
+│       │       │   └── CustomUserDetailsService.java
+│       │       └── service/
+│       │           ├── AuthService.java
+│       │           ├── UserService.java
+│       │           └── PostService.java
+│       └── resources/
+│           └── application.properties
